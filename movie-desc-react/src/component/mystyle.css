@@ -1,0 +1,97 @@
+.navbar-custom {
+    background: #a6a809;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 5px;
+}
+
+.container-fluid {
+    --bs-gutter-x: 35rem;
+}
+
+.search-box {
+    text-align: center;
+    border-radius: 5px;
+    width: 20vw;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.main-image {
+    margin-top: 10px;
+    width: 100%;
+    height: 80%;
+}
+
+.main-image .main-image-img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.column {
+    margin-top: 10px;
+    width: min-content;
+
+}
+
+.movie-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.movie-descr {
+    margin-top: 10px;
+    width: 100%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.movie-genre {
+    margin-top: 15px;
+    display: grid;
+}
+
+.movie-genre .genre span {
+    color: #ffffff;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 100;
+
+}
+
+.description {
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.description h6 {
+    color: aliceblue;
+    font-weight: 20s0;
+    font-size: large;
+}
+
+.crew-info {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, rgb(234, 235, 202), rgb(151, 149, 32));
+    color: black;
+    font-weight: 500;
+    font-size: large;
+}
